@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <link rel="stylesheet" href="verification.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="login-box">
+    <div class="User">👤</div>
+    <h1>Login</h1>
+    <form id="loginForm">
+      <input type="email" id="username" placeholder="Gmail" required>
+      <div class="password-box">
+      <input type="password" id="password" placeholder="Enter password">
+      <span class="toggle" onclick="togglePassword()">Show</span>
+      </div>
+      <div class="Remember">
+      <label><input type="checkbox">Remember Me</label>
+      <a href="#">Forgot Password?</a>
+      </div>
+      <button type="submit" id="button">Login</button>
+      <p>Don't Have An Account? <a href="#">Registar</a></p>
+    </form>
+    <script src="verification.js"></script>
+  </div>
+</body>
+</html>
